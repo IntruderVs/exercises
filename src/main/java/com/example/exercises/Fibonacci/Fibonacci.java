@@ -1,8 +1,13 @@
 package com.example.exercises.Fibonacci;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Fibonacci {
 
-    /** Find the last fibonacci number */
+    /**
+     * Find the last fibonacci number
+     */
     public long getFibonacciNumber(int n) {
         if (n < 0)
             return 0;
@@ -23,7 +28,9 @@ public class Fibonacci {
         return fib;
     }
 
-    /** Find complete sequence */
+    /**
+     * Find complete sequence
+     */
     public long[] getCompleteFibonacciSequence(int n) {
         if (n < 0)
             return new long[1];

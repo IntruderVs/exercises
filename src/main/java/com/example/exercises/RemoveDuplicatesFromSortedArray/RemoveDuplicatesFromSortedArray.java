@@ -1,5 +1,8 @@
 package com.example.exercises.RemoveDuplicatesFromSortedArray;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) {

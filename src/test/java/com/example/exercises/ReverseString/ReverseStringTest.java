@@ -1,11 +1,16 @@
 package com.example.exercises.ReverseString;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+@SpringBootTest()
 class ReverseStringTest {
-    ReverseString reverseString = new ReverseString();
+
+    @Autowired
+    private ReverseString reverseString;
 
     @Test
     void reverseStringEven() {

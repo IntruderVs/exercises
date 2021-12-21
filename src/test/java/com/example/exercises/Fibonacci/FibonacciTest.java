@@ -1,14 +1,19 @@
 package com.example.exercises.Fibonacci;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static com.example.exercises.Fibonacci.FibonacciTestData.getArray;
 import static com.example.exercises.Fibonacci.FibonacciTestData.getNumberOfFibonacci;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@SpringBootTest()
 class FibonacciTest {
-    Fibonacci fibonacci = new Fibonacci();
+
+    @Autowired
+    private Fibonacci fibonacci;
 
     @Test
     void getFibonacciNumber() {

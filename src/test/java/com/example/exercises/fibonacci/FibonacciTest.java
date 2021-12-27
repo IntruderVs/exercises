@@ -1,11 +1,11 @@
-package com.example.exercises.Fibonacci;
+package com.example.exercises.fibonacci;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static com.example.exercises.Fibonacci.FibonacciTestData.getArray;
-import static com.example.exercises.Fibonacci.FibonacciTestData.getNumberOfFibonacci;
+import static com.example.exercises.fibonacci.FibonacciTestData.getArray;
+import static com.example.exercises.fibonacci.FibonacciTestData.getNumberOfFibonacci;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

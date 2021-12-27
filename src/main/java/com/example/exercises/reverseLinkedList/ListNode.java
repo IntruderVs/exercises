@@ -1,4 +1,4 @@
-package com.example.exercises.ReverseLinkedList;
+package com.example.exercises.reverseLinkedList;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.example.exercises.DeleteNodeInALinkedList;
+package com.example.exercises.deleteNodeInALinkedList;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

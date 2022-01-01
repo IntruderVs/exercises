@@ -10,12 +10,12 @@ public class FizzBuzz {
     public List<String> fizzBuzz(int n) {
         ArrayList<String> strings = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
-            strings.add(getItemString(i));
+            strings.add(createStringOfItem(i));
         }
         return strings;
     }
 
-    private String getItemString(int item) {
+    private String createStringOfItem(int item) {
         if (item % 3 == 0) {
             if (item % 5 == 0) {
                 return "FizzBuzz";

@@ -1,4 +1,4 @@
-package com.example.exercises.Fibonacci;
+package com.example.exercises.fibonacci;
 
 import org.springframework.stereotype.Component;
 

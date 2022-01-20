@@ -1,4 +1,4 @@
-package com.example.exercises.DeleteNodeInALinkedList;
+package com.example.exercises.deleteNodeInALinkedList;
 
 import org.springframework.stereotype.Component;
 

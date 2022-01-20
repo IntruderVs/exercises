@@ -1,4 +1,4 @@
-package com.example.exercises.ReverseLinkedList;
+package com.example.exercises.reverseLinkedList;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

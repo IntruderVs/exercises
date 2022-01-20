@@ -1,4 +1,4 @@
-package com.example.exercises.ReverseString;
+package com.example.exercises.reverseString;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

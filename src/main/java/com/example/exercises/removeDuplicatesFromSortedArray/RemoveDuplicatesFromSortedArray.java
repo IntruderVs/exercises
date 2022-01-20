@@ -1,4 +1,4 @@
-package com.example.exercises.RemoveDuplicatesFromSortedArray;
+package com.example.exercises.removeDuplicatesFromSortedArray;
 
 import org.springframework.stereotype.Component;
 
